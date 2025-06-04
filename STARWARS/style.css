@@ -1,0 +1,21 @@
+#homeWorldsFilterContainer {
+    display: none;
+}
+
+body {
+    background-image: url(assets/starwars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.card, #homeWorldsFilterContainer {
+    background-color: rgba(0, 0, 0, 0.6);
+padding: 10px;
+border-radius: 10px;
+}
+
+.form-check-label, .form-check-input, button {
+  color: white;
+}
